@@ -1,5 +1,5 @@
-obj-m := hello.o
-module-objs := hello.o
+obj-m := getpid.o
+module-objs := getpid.o
 CURRENT_PATH := $(shell pwd)
 LINUX_KERNEL := $(shell uname -r)
 LINUX_KERNEL_PATH := /usr/src/linux-headers-$(LINUX_KERNEL)
